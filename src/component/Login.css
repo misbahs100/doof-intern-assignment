@@ -11,8 +11,8 @@
 .login::before{
     content:  "";
     display: block;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     position: absolute;
     
     opacity: .9;
@@ -41,8 +41,131 @@ top: 442px;
 .test{
     /* margin-left: 80%; */
     margin-top: 10%;
+   
 }
 input{
     width: 50%;
+    height: 30px;
+    background: #F0F0F0;
+border-radius: 5px;
+border: none;
 }
+.doof{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 59px;
+/* identical to box height */
 
+
+/* Primary */
+
+color: #F7D832;
+}
+.test-btn{
+    background: #F7D832;
+border-radius: 5px;
+width: 150px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Dark */
+
+color: #333333;
+}
+.input-text{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Light */
+
+color: #A5A5A5;
+}
+.forgot{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #333333;
+}
+.unlock{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 44px;
+/* identical to box height */
+
+text-align: right;
+
+/* Dark */
+
+color: #333333;
+}
+.help{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: right;
+
+/* Dark */
+
+color: #333333;
+}
+.account{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #333333;
+}
+.terms{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #333333;
+}
+.login-text{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+
+color: #333333;
+}
