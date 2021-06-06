@@ -67,15 +67,17 @@ color: #F7D832;
     background: #F7D832;
 border-radius: 5px;
 width: 150px;
-
+padding: 5px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 22px;
 display: flex;
+justify-content: center;
 align-items: center;
 text-align: center;
+border: none;
 
 /* Dark */
 
@@ -165,7 +167,9 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 22px;
-
-
+background: #F7D832;
+border-radius: 5px;
+border: none;
+padding: 5px;
 color: #333333;
 }
