@@ -1,211 +1,167 @@
-.font{
+* {
     font-family: Montserrat;
     font-style: normal;
 }
+
 .login {
     height: fit-content;
-    position:relative;
+    position: relative;
     background-image: url('../images//Background.png');
     background-size: cover;
     background-position: center center;
     width: 100%;
-    
-    /* border: 1px solid red; */
 }
-.login::before{
-    content:  "";
+
+.login::before {
+    content: "";
     display: block;
     /* width: 100%;
     height: 100%; */
     position: absolute;
-    
     opacity: .9;
     top: 0;
 }
 
-.login-img{
-    /* position: absolute; */
-width: 300px;
-/* height: 374px; */
-/* left: 1242px;
-top: 442px; */
+.login-img {
+    width: 300px;
 }
-.right-side{
+
+.right-side {
     display: flex;
     justify-content: end;
 }
-.test{
-    /* margin-left: 80%; */
+
+.test {
     margin-top: 10%;
-   
 }
-input{
+
+input {
     width: 50%;
     height: 30px;
     background: #F0F0F0;
-border-radius: 5px;
-border: none;
+    border-radius: 5px;
+    border: none;
 }
-.doof{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 59px;
-/* identical to box height */
 
-
-/* Primary */
-
-color: #F7D832;
+.doof {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 59px;
+    color: #F7D832;
 }
-.test-btn{
+
+.test-btn {
     background: #F7D832;
-border-radius: 5px;
-width: 150px;
-padding: 5px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-border: none;
-
-/* Dark */
-
-color: #333333;
-}
-.input-text{
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
     font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-/* Light */
-
-color: #A5A5A5;
-}
-.forgot{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 17px;
-/* identical to box height */
-
-
-/* Dark */
-
-color: #333333;
-}
-.unlock{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 44px;
-/* identical to box height */
-
-text-align: right;
-
-/* Dark */
-
-color: #333333;
-}
-.help{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 22px;
-text-align: right;
-
-/* Dark */
-
-color: #333333;
-}
-.account{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 22px;
-/* identical to box height */
-
-
-/* Dark */
-
-color: #333333;
-}
-.terms{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 22px;
-margin-top: 30%;
-
-
-/* Dark */
-
-color: #333333;
-}
-.login-text{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-background: #F7D832;
-border-radius: 5px;
-border: none;
-padding: 5px;
-color: #333333;
-width: 50%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: #333333;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 601px){
-    .login{
+.input-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A5A5A5;
+}
+
+.forgot {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.unlock {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+    text-align: right;
+    /* Dark */
+    color: #333333;
+}
+
+.help {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    /* Dark */
+    color: #333333;
+}
+
+.account {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    /* Dark */
+    color: #333333;
+}
+
+.terms {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 30%;
+    /* Dark */
+    color: #333333;
+}
+
+.login-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: #F7D832;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: #333333;
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+    .login {
         height: fit-content;
     }
-    .terms{
+    .terms {
         position: fixed;
         bottom: 0;
-        
     }
 }
 
 @media only screen and (max-width: 600px) {
-    input{
+    input {
         width: 100%;
     }
-    .login-text{
+    .login-text {
         width: 100%;
     }
-    .terms{
+    .terms {
         /* margin-top: 100vh;
         position: absolute; */
     }
-    .login{
+    .login {
         height: fit-content;
     }
-    .row-container{
+    .row-container {
         flex-direction: column-reverse;
     }
-    .doof{
+    .doof {
         position: absolute;
         top: -113%;
         font-size: 30px;
         line-height: 59px;
     }
-    
 }
-
-

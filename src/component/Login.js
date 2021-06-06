@@ -10,8 +10,9 @@ const Login = () => {
                 <Box container my="auto" className="login ">
                     <Box px={5}>
                         <Grid container direction="row" className="row-container">
-                            <Grid item xs={12} sm={12} md={6} className="" style={{ display: 'flex', flexDirection: 'column', position: 'relative' }}>
 
+                            {/* login form----------------- */}
+                            <Grid item xs={12} sm={12} md={6} className="" style={{ display: 'flex', flexDirection: 'column', position: 'relative' }}>
                                 <Box display="flex" justifyContent="flex-start" className="test"><h1 className="doof">DOOF</h1></Box>
                                 <Box mt={1}>
                                     <h4>Login</h4>
@@ -22,35 +23,30 @@ const Login = () => {
                                             <br /><br />
                                             <label className="input-text" htmlFor="Password">Password</label><br />
                                             <input type="password" name="" placeholder="Password" /> <small className="forgot">Forgot Password</small>
-                                            <br />
-                                            <br />
-                                            <button className=" login-text" type="submit">Login</button>
+                                            <br /><br />
+                                            <button className="login-text" type="submit">Login</button>
                                         </form>
                                     </Box>
                                     <br />
                                     <p className="account">Don’t have an account yet? <b>Signup</b></p>
-
                                 </Box>
 
+                                {/* terms and services------------ */}
                                 <Box className="terms" style={{ display: 'flex' }}>
                                     <Box mx={2}><small className="">Terms of Service</small></Box>
                                     <Box mx={2}><small className="">Privacy Policy</small></Box>
                                 </Box>
-
                             </Grid>
 
-
+                            {/* illustration------------ */}
                             <Grid item xs={12} sm={12} md={6} style={{ display: 'flex', flexDirection: 'column', position: 'relative' }}>
-
                                 <Box display="flex" justifyContent="flex-end"><button className="test test-btn">Test</button></Box>
                                 <Box mt={5}><h4 className="unlock">Unlock your stuck revenue</h4></Box>
                                 <p className="help">We help you unlock the true potential connect with your customers to <br /> understand the rights and wrongs with your product.</p>
-                                <Box mt={4} ml="auto"><img className="" style={{ width: '300px' }} src={login} alt="" /></Box>
-
+                                <Box mt={4} ml="auto"><img style={{ width: '300px' }} src={login} alt="a login illustrator" /></Box>
                             </Grid>
                         </Grid>
                     </Box>
-
                 </Box>
             </Box>
         </Box>
