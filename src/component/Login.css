@@ -1,5 +1,9 @@
+.font{
+    font-family: Montserrat;
+    font-style: normal;
+}
 .login {
-    height: 70vh;
+    height: fit-content;
     position:relative;
     background-image: url('../images//Background.png');
     background-size: cover;
@@ -18,21 +22,13 @@
     opacity: .9;
     top: 0;
 }
-.illustration{
-    position: absolute;
-width: 35%;
-height: 553px;
-/* width: 100%; */
-left: 57%;
-top: 24%;
-border: 1px solid red;
-}
+
 .login-img{
     /* position: absolute; */
 width: 300px;
 /* height: 374px; */
-left: 1242px;
-top: 442px;
+/* left: 1242px;
+top: 442px; */
 }
 .right-side{
     display: flex;
@@ -154,7 +150,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 22px;
-/* identical to box height */
+margin-top: 30%;
 
 
 /* Dark */
@@ -172,4 +168,44 @@ border-radius: 5px;
 border: none;
 padding: 5px;
 color: #333333;
+width: 50%;
 }
+
+@media only screen and (max-width: 768px) and (min-width: 601px){
+    .login{
+        height: fit-content;
+    }
+    .terms{
+        position: fixed;
+        bottom: 0;
+        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    input{
+        width: 100%;
+    }
+    .login-text{
+        width: 100%;
+    }
+    .terms{
+        /* margin-top: 100vh;
+        position: absolute; */
+    }
+    .login{
+        height: fit-content;
+    }
+    .row-container{
+        flex-direction: column-reverse;
+    }
+    .doof{
+        position: absolute;
+        top: -113%;
+        font-size: 30px;
+        line-height: 59px;
+    }
+    
+}
+
+

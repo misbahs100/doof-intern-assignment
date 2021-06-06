@@ -5,11 +5,11 @@ import { Box, Grid } from '@material-ui/core';
 
 const Login = () => {
     return (
-        <Box style={{ padding: "10px", border: '1px solid red' }}>
+        <Box className="background" style={{ padding: "10px" }}>
             <Box p={6}>
-                <Box container my="auto" className="login " style={{ border: '1px solid red' }}>
+                <Box container my="auto" className="login ">
                     <Box px={5}>
-                        <Grid container direction="row" className="">
+                        <Grid container direction="row" className="row-container">
                             <Grid item xs={12} sm={12} md={6} className="" style={{ display: 'flex', flexDirection: 'column', position: 'relative' }}>
 
                                 <Box display="flex" justifyContent="flex-start" className="test"><h1 className="doof">DOOF</h1></Box>
@@ -24,7 +24,7 @@ const Login = () => {
                                             <input type="password" name="" placeholder="Password" /> <small className="forgot">Forgot Password</small>
                                             <br />
                                             <br />
-                                            <button className="w-50 login-text" type="submit">Login</button>
+                                            <button className=" login-text" type="submit">Login</button>
                                         </form>
                                     </Box>
                                     <br />
@@ -32,9 +32,9 @@ const Login = () => {
 
                                 </Box>
 
-                                <Box mt={20} className="terms" style={{ display: 'flex' }}>
-                                    <Box ><small className="">Terms of Service</small></Box>
-                                    <Box mx={4}><small className="">Privacy Policy</small></Box>
+                                <Box className="terms" style={{ display: 'flex' }}>
+                                    <Box mx={2}><small className="">Terms of Service</small></Box>
+                                    <Box mx={2}><small className="">Privacy Policy</small></Box>
                                 </Box>
 
                             </Grid>
